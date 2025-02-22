@@ -31,6 +31,7 @@ class Train:
         self.epochs = cfg.training.epochs
         self.total_steps = cfg.total_steps
         self.optimizers = optimizers
+        print(f"Optimizer: {self.optimizers[0]}")
         self.lr_schedulers = lr_schedulers
         self.loss_fn = torch.nn.CrossEntropyLoss(reduction='sum')
         self.save_path = Path(cfg.log_path) / cfg.unique_id

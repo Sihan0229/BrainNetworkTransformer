@@ -4,7 +4,7 @@ from .preprocess import StandardScaler
 from omegaconf import DictConfig, open_dict
 
 
-def load_abide_data(cfg: DictConfig):
+def load_ABIDE_data(cfg: DictConfig):
 
     data = np.load(cfg.dataset.path, allow_pickle=True).item()
     final_timeseires = data["timeseires"]

@@ -1,0 +1,187 @@
+[2025-02-22 16:57:10,873][HYDRA] Launching 1 jobs locally
+[2025-02-22 16:57:10,873][HYDRA] 	#0 : datasz=100p model=bnt dataset=ABIDE repeat_time=5 preprocess=mixup
+=========Optimizer config type: <class 'str'>
+========Optimizer config: type
+======Optimizer config type: <class 'omegaconf.dictconfig.DictConfig'>
+=========Optimizer config type: <class 'str'>
+========Optimizer config: lr
+======Optimizer config type: <class 'omegaconf.dictconfig.DictConfig'>
+=========Optimizer config type: <class 'str'>
+========Optimizer config: weight_decay
+======Optimizer config type: <class 'omegaconf.dictconfig.DictConfig'>
+=========Optimizer config type: <class 'str'>
+========Optimizer config: no_weight_decay
+======Optimizer config type: <class 'omegaconf.dictconfig.DictConfig'>
+=========Optimizer config type: <class 'str'>
+========Optimizer config: match_rule
+======Optimizer config type: <class 'omegaconf.dictconfig.DictConfig'>
+=========Optimizer config type: <class 'str'>
+========Optimizer config: except_rule
+======Optimizer config type: <class 'omegaconf.dictconfig.DictConfig'>
+=========Optimizer config type: <class 'str'>
+========Optimizer config: _target_
+======Optimizer config type: <class 'omegaconf.dictconfig.DictConfig'>
+=========Optimizer config type: <class 'str'>
+========Optimizer config: lr_scheduler
+======Optimizer config type: <class 'omegaconf.dictconfig.DictConfig'>
+Optimizer: Adam (
+Parameter Group 0
+    amsgrad: False
+    betas: (0.9, 0.999)
+    capturable: False
+    differentiable: False
+    eps: 1e-08
+    foreach: None
+    fused: None
+    lr: 0.0
+    maximize: False
+    weight_decay: 0.0001
+)
+=========Optimizer config type: <class 'str'>
+========Optimizer config: type
+======Optimizer config type: <class 'omegaconf.dictconfig.DictConfig'>
+=========Optimizer config type: <class 'str'>
+========Optimizer config: lr
+======Optimizer config type: <class 'omegaconf.dictconfig.DictConfig'>
+=========Optimizer config type: <class 'str'>
+========Optimizer config: weight_decay
+======Optimizer config type: <class 'omegaconf.dictconfig.DictConfig'>
+=========Optimizer config type: <class 'str'>
+========Optimizer config: no_weight_decay
+======Optimizer config type: <class 'omegaconf.dictconfig.DictConfig'>
+=========Optimizer config type: <class 'str'>
+========Optimizer config: match_rule
+======Optimizer config type: <class 'omegaconf.dictconfig.DictConfig'>
+=========Optimizer config type: <class 'str'>
+========Optimizer config: except_rule
+======Optimizer config type: <class 'omegaconf.dictconfig.DictConfig'>
+=========Optimizer config type: <class 'str'>
+========Optimizer config: _target_
+======Optimizer config type: <class 'omegaconf.dictconfig.DictConfig'>
+=========Optimizer config type: <class 'str'>
+========Optimizer config: lr_scheduler
+======Optimizer config type: <class 'omegaconf.dictconfig.DictConfig'>
+Optimizer: Adam (
+Parameter Group 0
+    amsgrad: False
+    betas: (0.9, 0.999)
+    capturable: False
+    differentiable: False
+    eps: 1e-08
+    foreach: None
+    fused: None
+    lr: 0.0
+    maximize: False
+    weight_decay: 0.0001
+)
+=========Optimizer config type: <class 'str'>
+========Optimizer config: type
+======Optimizer config type: <class 'omegaconf.dictconfig.DictConfig'>
+=========Optimizer config type: <class 'str'>
+========Optimizer config: lr
+======Optimizer config type: <class 'omegaconf.dictconfig.DictConfig'>
+=========Optimizer config type: <class 'str'>
+========Optimizer config: weight_decay
+======Optimizer config type: <class 'omegaconf.dictconfig.DictConfig'>
+=========Optimizer config type: <class 'str'>
+========Optimizer config: no_weight_decay
+======Optimizer config type: <class 'omegaconf.dictconfig.DictConfig'>
+=========Optimizer config type: <class 'str'>
+========Optimizer config: match_rule
+======Optimizer config type: <class 'omegaconf.dictconfig.DictConfig'>
+=========Optimizer config type: <class 'str'>
+========Optimizer config: except_rule
+======Optimizer config type: <class 'omegaconf.dictconfig.DictConfig'>
+=========Optimizer config type: <class 'str'>
+========Optimizer config: _target_
+======Optimizer config type: <class 'omegaconf.dictconfig.DictConfig'>
+=========Optimizer config type: <class 'str'>
+========Optimizer config: lr_scheduler
+======Optimizer config type: <class 'omegaconf.dictconfig.DictConfig'>
+Optimizer: Adam (
+Parameter Group 0
+    amsgrad: False
+    betas: (0.9, 0.999)
+    capturable: False
+    differentiable: False
+    eps: 1e-08
+    foreach: None
+    fused: None
+    lr: 0.0
+    maximize: False
+    weight_decay: 0.0001
+)
+=========Optimizer config type: <class 'str'>
+========Optimizer config: type
+======Optimizer config type: <class 'omegaconf.dictconfig.DictConfig'>
+=========Optimizer config type: <class 'str'>
+========Optimizer config: lr
+======Optimizer config type: <class 'omegaconf.dictconfig.DictConfig'>
+=========Optimizer config type: <class 'str'>
+========Optimizer config: weight_decay
+======Optimizer config type: <class 'omegaconf.dictconfig.DictConfig'>
+=========Optimizer config type: <class 'str'>
+========Optimizer config: no_weight_decay
+======Optimizer config type: <class 'omegaconf.dictconfig.DictConfig'>
+=========Optimizer config type: <class 'str'>
+========Optimizer config: match_rule
+======Optimizer config type: <class 'omegaconf.dictconfig.DictConfig'>
+=========Optimizer config type: <class 'str'>
+========Optimizer config: except_rule
+======Optimizer config type: <class 'omegaconf.dictconfig.DictConfig'>
+=========Optimizer config type: <class 'str'>
+========Optimizer config: _target_
+======Optimizer config type: <class 'omegaconf.dictconfig.DictConfig'>
+=========Optimizer config type: <class 'str'>
+========Optimizer config: lr_scheduler
+======Optimizer config type: <class 'omegaconf.dictconfig.DictConfig'>
+Optimizer: Adam (
+Parameter Group 0
+    amsgrad: False
+    betas: (0.9, 0.999)
+    capturable: False
+    differentiable: False
+    eps: 1e-08
+    foreach: None
+    fused: None
+    lr: 0.0
+    maximize: False
+    weight_decay: 0.0001
+)
+=========Optimizer config type: <class 'str'>
+========Optimizer config: type
+======Optimizer config type: <class 'omegaconf.dictconfig.DictConfig'>
+=========Optimizer config type: <class 'str'>
+========Optimizer config: lr
+======Optimizer config type: <class 'omegaconf.dictconfig.DictConfig'>
+=========Optimizer config type: <class 'str'>
+========Optimizer config: weight_decay
+======Optimizer config type: <class 'omegaconf.dictconfig.DictConfig'>
+=========Optimizer config type: <class 'str'>
+========Optimizer config: no_weight_decay
+======Optimizer config type: <class 'omegaconf.dictconfig.DictConfig'>
+=========Optimizer config type: <class 'str'>
+========Optimizer config: match_rule
+======Optimizer config type: <class 'omegaconf.dictconfig.DictConfig'>
+=========Optimizer config type: <class 'str'>
+========Optimizer config: except_rule
+======Optimizer config type: <class 'omegaconf.dictconfig.DictConfig'>
+=========Optimizer config type: <class 'str'>
+========Optimizer config: _target_
+======Optimizer config type: <class 'omegaconf.dictconfig.DictConfig'>
+=========Optimizer config type: <class 'str'>
+========Optimizer config: lr_scheduler
+======Optimizer config type: <class 'omegaconf.dictconfig.DictConfig'>
+Optimizer: Adam (
+Parameter Group 0
+    amsgrad: False
+    betas: (0.9, 0.999)
+    capturable: False
+    differentiable: False
+    eps: 1e-08
+    foreach: None
+    fused: None
+    lr: 0.0
+    maximize: False
+    weight_decay: 0.0001
+)

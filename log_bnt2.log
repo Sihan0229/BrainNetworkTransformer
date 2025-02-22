@@ -1,0 +1,60 @@
+[2025-02-22 16:57:12,164][optimizer.py][L80][INFO] Parameters [normal] length [27]
+[2025-02-22 16:57:12,741][optimizer.py][L80][INFO] Parameters [normal] length [27]
+[2025-02-22 16:57:12,749][optimizer.py][L80][INFO] Parameters [normal] length [27]
+[2025-02-22 16:57:12,756][optimizer.py][L80][INFO] Parameters [normal] length [27]
+[2025-02-22 16:57:12,763][optimizer.py][L80][INFO] Parameters [normal] length [27]
+[2025-02-22 16:57:12,770][optimizer.py][L80][INFO] Parameters [normal] length [27]
+[2025-02-22 16:57:12,777][optimizer.py][L80][INFO] Parameters [normal] length [27]
+[2025-02-22 16:57:12,784][optimizer.py][L80][INFO] Parameters [normal] length [27]
+[2025-02-22 16:57:12,785][training.py][L29][INFO] #model params: 3976042
+[2025-02-22 16:57:13,729][training.py][L156][INFO] Epoch[0/200] | Train Loss: 11.130 | Train Accuracy: 27.699% | Test Loss: 10.816 | Test Accuracy: 44.000% | Val AUC:0.5684 | Test AUC:0.5844 | Test Sen:1.0000 | LR:0.0001
+[2025-02-22 16:57:14,409][training.py][L156][INFO] Epoch[1/200] | Train Loss: 10.910 | Train Accuracy: 30.966% | Test Loss: 10.645 | Test Accuracy: 62.000% | Val AUC:0.7060 | Test AUC:0.6396 | Test Sen:0.7273 | LR:0.0001
+[2025-02-22 16:57:15,042][training.py][L156][INFO] Epoch[2/200] | Train Loss: 10.099 | Train Accuracy: 36.222% | Test Loss: 10.216 | Test Accuracy: 63.000% | Val AUC:0.7399 | Test AUC:0.6993 | Test Sen:0.9318 | LR:0.0001
+[2025-02-22 16:57:15,734][training.py][L156][INFO] Epoch[3/200] | Train Loss: 9.294 | Train Accuracy: 42.472% | Test Loss: 9.361 | Test Accuracy: 62.000% | Val AUC:0.7782 | Test AUC:0.7374 | Test Sen:0.3636 | LR:0.0001
+[2025-02-22 16:57:16,442][training.py][L156][INFO] Epoch[4/200] | Train Loss: 8.273 | Train Accuracy: 44.744% | Test Loss: 9.484 | Test Accuracy: 69.000% | Val AUC:0.7729 | Test AUC:0.7630 | Test Sen:0.5000 | LR:0.0001
+[2025-02-22 16:57:17,141][training.py][L156][INFO] Epoch[5/200] | Train Loss: 7.055 | Train Accuracy: 45.455% | Test Loss: 9.315 | Test Accuracy: 66.000% | Val AUC:0.7853 | Test AUC:0.7768 | Test Sen:0.4318 | LR:0.0001
+[2025-02-22 16:57:17,849][training.py][L156][INFO] Epoch[6/200] | Train Loss: 6.368 | Train Accuracy: 49.858% | Test Loss: 8.606 | Test Accuracy: 71.000% | Val AUC:0.7811 | Test AUC:0.8186 | Test Sen:0.9091 | LR:0.0001
+[2025-02-22 16:57:18,525][training.py][L156][INFO] Epoch[7/200] | Train Loss: 5.625 | Train Accuracy: 52.699% | Test Loss: 9.359 | Test Accuracy: 66.000% | Val AUC:0.7698 | Test AUC:0.7942 | Test Sen:0.4091 | LR:0.0001
+[2025-02-22 16:57:19,206][training.py][L156][INFO] Epoch[8/200] | Train Loss: 5.050 | Train Accuracy: 53.409% | Test Loss: 8.802 | Test Accuracy: 72.000% | Val AUC:0.7712 | Test AUC:0.7950 | Test Sen:0.6818 | LR:0.0001
+[2025-02-22 16:57:19,905][training.py][L156][INFO] Epoch[9/200] | Train Loss: 4.884 | Train Accuracy: 52.557% | Test Loss: 9.365 | Test Accuracy: 69.000% | Val AUC:0.7695 | Test AUC:0.7825 | Test Sen:0.5000 | LR:0.0001
+[2025-02-22 16:57:20,607][training.py][L156][INFO] Epoch[10/200] | Train Loss: 4.812 | Train Accuracy: 55.682% | Test Loss: 8.992 | Test Accuracy: 76.000% | Val AUC:0.7770 | Test AUC:0.8044 | Test Sen:0.8636 | LR:0.0001
+[2025-02-22 16:57:21,307][training.py][L156][INFO] Epoch[11/200] | Train Loss: 4.814 | Train Accuracy: 54.403% | Test Loss: 8.588 | Test Accuracy: 68.000% | Val AUC:0.7860 | Test AUC:0.7946 | Test Sen:0.5455 | LR:0.0001
+[2025-02-22 16:57:22,040][training.py][L156][INFO] Epoch[12/200] | Train Loss: 5.029 | Train Accuracy: 50.426% | Test Loss: 9.462 | Test Accuracy: 62.000% | Val AUC:0.7734 | Test AUC:0.7731 | Test Sen:0.3409 | LR:0.0001
+[2025-02-22 16:57:22,739][training.py][L156][INFO] Epoch[13/200] | Train Loss: 4.010 | Train Accuracy: 56.534% | Test Loss: 9.339 | Test Accuracy: 69.000% | Val AUC:0.7858 | Test AUC:0.7719 | Test Sen:0.7955 | LR:0.0001
+[2025-02-22 16:57:23,435][training.py][L156][INFO] Epoch[14/200] | Train Loss: 4.482 | Train Accuracy: 50.852% | Test Loss: 8.959 | Test Accuracy: 67.000% | Val AUC:0.7869 | Test AUC:0.7691 | Test Sen:0.5682 | LR:0.0001
+[2025-02-22 16:57:24,128][training.py][L156][INFO] Epoch[15/200] | Train Loss: 4.901 | Train Accuracy: 51.989% | Test Loss: 9.007 | Test Accuracy: 69.000% | Val AUC:0.7621 | Test AUC:0.7861 | Test Sen:0.7045 | LR:0.0001
+[2025-02-22 16:57:24,827][training.py][L156][INFO] Epoch[16/200] | Train Loss: 4.562 | Train Accuracy: 52.273% | Test Loss: 9.342 | Test Accuracy: 67.000% | Val AUC:0.7899 | Test AUC:0.7545 | Test Sen:0.6136 | LR:0.0001
+[2025-02-22 16:57:25,534][training.py][L156][INFO] Epoch[17/200] | Train Loss: 4.820 | Train Accuracy: 50.568% | Test Loss: 8.854 | Test Accuracy: 67.000% | Val AUC:0.8011 | Test AUC:0.7687 | Test Sen:0.5682 | LR:0.0001
+[2025-02-22 16:57:26,258][training.py][L156][INFO] Epoch[18/200] | Train Loss: 4.791 | Train Accuracy: 51.136% | Test Loss: 9.162 | Test Accuracy: 63.000% | Val AUC:0.7901 | Test AUC:0.7553 | Test Sen:0.3864 | LR:0.0001
+[2025-02-22 16:57:26,961][training.py][L156][INFO] Epoch[19/200] | Train Loss: 4.094 | Train Accuracy: 55.966% | Test Loss: 8.521 | Test Accuracy: 72.000% | Val AUC:0.7850 | Test AUC:0.7853 | Test Sen:0.8182 | LR:0.0001
+[2025-02-22 16:57:27,670][training.py][L156][INFO] Epoch[20/200] | Train Loss: 4.287 | Train Accuracy: 53.409% | Test Loss: 8.635 | Test Accuracy: 66.000% | Val AUC:0.7685 | Test AUC:0.7630 | Test Sen:0.5455 | LR:0.0001
+[2025-02-22 16:57:28,383][training.py][L156][INFO] Epoch[21/200] | Train Loss: 5.221 | Train Accuracy: 52.841% | Test Loss: 9.233 | Test Accuracy: 65.000% | Val AUC:0.7752 | Test AUC:0.7565 | Test Sen:0.4773 | LR:0.0001
+[2025-02-22 16:57:29,092][training.py][L156][INFO] Epoch[22/200] | Train Loss: 4.294 | Train Accuracy: 56.818% | Test Loss: 8.772 | Test Accuracy: 65.000% | Val AUC:0.7872 | Test AUC:0.7687 | Test Sen:0.3409 | LR:0.0001
+[2025-02-22 16:57:29,806][training.py][L156][INFO] Epoch[23/200] | Train Loss: 4.192 | Train Accuracy: 54.830% | Test Loss: 8.963 | Test Accuracy: 63.000% | Val AUC:0.7799 | Test AUC:0.7569 | Test Sen:0.4773 | LR:0.0001
+[2025-02-22 16:57:30,526][training.py][L156][INFO] Epoch[24/200] | Train Loss: 4.217 | Train Accuracy: 54.261% | Test Loss: 8.796 | Test Accuracy: 65.000% | Val AUC:0.7772 | Test AUC:0.7683 | Test Sen:0.5682 | LR:0.0001
+[2025-02-22 16:57:31,240][training.py][L156][INFO] Epoch[25/200] | Train Loss: 4.016 | Train Accuracy: 54.261% | Test Loss: 8.552 | Test Accuracy: 67.000% | Val AUC:0.7887 | Test AUC:0.7731 | Test Sen:0.5682 | LR:0.0001
+[2025-02-22 16:57:31,951][training.py][L156][INFO] Epoch[26/200] | Train Loss: 4.341 | Train Accuracy: 52.557% | Test Loss: 8.950 | Test Accuracy: 71.000% | Val AUC:0.7882 | Test AUC:0.7715 | Test Sen:0.7273 | LR:0.0001
+[2025-02-22 16:57:32,669][training.py][L156][INFO] Epoch[27/200] | Train Loss: 4.099 | Train Accuracy: 51.989% | Test Loss: 8.708 | Test Accuracy: 63.000% | Val AUC:0.7862 | Test AUC:0.7427 | Test Sen:0.5000 | LR:0.0001
+[2025-02-22 16:57:33,379][training.py][L156][INFO] Epoch[28/200] | Train Loss: 4.287 | Train Accuracy: 52.841% | Test Loss: 8.495 | Test Accuracy: 65.000% | Val AUC:0.7838 | Test AUC:0.7593 | Test Sen:0.5227 | LR:0.0001
+[2025-02-22 16:57:34,090][training.py][L156][INFO] Epoch[29/200] | Train Loss: 4.155 | Train Accuracy: 55.966% | Test Loss: 9.311 | Test Accuracy: 62.000% | Val AUC:0.7917 | Test AUC:0.7297 | Test Sen:0.4091 | LR:0.0001
+[2025-02-22 16:57:34,787][training.py][L156][INFO] Epoch[30/200] | Train Loss: 4.424 | Train Accuracy: 50.568% | Test Loss: 8.369 | Test Accuracy: 64.000% | Val AUC:0.7831 | Test AUC:0.7577 | Test Sen:0.5227 | LR:0.0001
+[2025-02-22 16:57:35,490][training.py][L156][INFO] Epoch[31/200] | Train Loss: 4.628 | Train Accuracy: 50.852% | Test Loss: 8.769 | Test Accuracy: 68.000% | Val AUC:0.7734 | Test AUC:0.7679 | Test Sen:0.6364 | LR:0.0001
+[2025-02-22 16:57:36,202][training.py][L156][INFO] Epoch[32/200] | Train Loss: 4.492 | Train Accuracy: 50.284% | Test Loss: 8.771 | Test Accuracy: 67.000% | Val AUC:0.7790 | Test AUC:0.7654 | Test Sen:0.5909 | LR:0.0001
+[2025-02-22 16:57:36,903][training.py][L156][INFO] Epoch[33/200] | Train Loss: 4.712 | Train Accuracy: 51.705% | Test Loss: 8.397 | Test Accuracy: 71.000% | Val AUC:0.7795 | Test AUC:0.7881 | Test Sen:0.7045 | LR:0.0001
+[2025-02-22 16:57:37,611][training.py][L156][INFO] Epoch[34/200] | Train Loss: 4.793 | Train Accuracy: 48.580% | Test Loss: 8.801 | Test Accuracy: 70.000% | Val AUC:0.7834 | Test AUC:0.7715 | Test Sen:0.7500 | LR:0.0001
+[2025-02-22 16:57:38,321][training.py][L156][INFO] Epoch[35/200] | Train Loss: 3.817 | Train Accuracy: 52.273% | Test Loss: 8.569 | Test Accuracy: 69.000% | Val AUC:0.7821 | Test AUC:0.7715 | Test Sen:0.6818 | LR:0.0001
+[2025-02-22 16:57:39,020][training.py][L156][INFO] Epoch[36/200] | Train Loss: 4.170 | Train Accuracy: 53.977% | Test Loss: 8.848 | Test Accuracy: 71.000% | Val AUC:0.7862 | Test AUC:0.7780 | Test Sen:0.7500 | LR:0.0001
+[2025-02-22 16:57:39,732][training.py][L156][INFO] Epoch[37/200] | Train Loss: 4.248 | Train Accuracy: 51.705% | Test Loss: 8.630 | Test Accuracy: 67.000% | Val AUC:0.7819 | Test AUC:0.7792 | Test Sen:0.5455 | LR:0.0001
+[2025-02-22 16:57:40,415][training.py][L156][INFO] Epoch[38/200] | Train Loss: 3.760 | Train Accuracy: 54.545% | Test Loss: 8.925 | Test Accuracy: 65.000% | Val AUC:0.7741 | Test AUC:0.7833 | Test Sen:0.4318 | LR:0.0001
+[2025-02-22 16:57:41,065][training.py][L156][INFO] Epoch[39/200] | Train Loss: 3.933 | Train Accuracy: 54.261% | Test Loss: 8.824 | Test Accuracy: 67.000% | Val AUC:0.7943 | Test AUC:0.7735 | Test Sen:0.6364 | LR:0.0001
+[2025-02-22 16:57:41,746][training.py][L156][INFO] Epoch[40/200] | Train Loss: 4.096 | Train Accuracy: 53.977% | Test Loss: 8.085 | Test Accuracy: 69.000% | Val AUC:0.7908 | Test AUC:0.7744 | Test Sen:0.7045 | LR:0.0001
+[2025-02-22 16:57:42,410][training.py][L156][INFO] Epoch[41/200] | Train Loss: 4.190 | Train Accuracy: 50.284% | Test Loss: 8.785 | Test Accuracy: 68.000% | Val AUC:0.7924 | Test AUC:0.7699 | Test Sen:0.5909 | LR:0.0001
+[2025-02-22 16:57:43,113][training.py][L156][INFO] Epoch[42/200] | Train Loss: 3.986 | Train Accuracy: 55.682% | Test Loss: 9.772 | Test Accuracy: 66.000% | Val AUC:0.7808 | Test AUC:0.7707 | Test Sen:0.4545 | LR:0.0001
+[2025-02-22 16:57:43,798][training.py][L156][INFO] Epoch[43/200] | Train Loss: 4.196 | Train Accuracy: 54.830% | Test Loss: 9.196 | Test Accuracy: 68.000% | Val AUC:0.7785 | Test AUC:0.7459 | Test Sen:0.7955 | LR:0.0001
+[2025-02-22 16:57:44,473][training.py][L156][INFO] Epoch[44/200] | Train Loss: 4.190 | Train Accuracy: 53.409% | Test Loss: 8.248 | Test Accuracy: 67.000% | Val AUC:0.7800 | Test AUC:0.7739 | Test Sen:0.7045 | LR:0.0001
+[2025-02-22 16:57:45,175][training.py][L156][INFO] Epoch[45/200] | Train Loss: 4.307 | Train Accuracy: 53.977% | Test Loss: 9.106 | Test Accuracy: 66.000% | Val AUC:0.7740 | Test AUC:0.7601 | Test Sen:0.5455 | LR:0.0001
+[2025-02-22 16:57:45,857][training.py][L156][INFO] Epoch[46/200] | Train Loss: 3.986 | Train Accuracy: 54.261% | Test Loss: 8.853 | Test Accuracy: 68.000% | Val AUC:0.7721 | Test AUC:0.7711 | Test Sen:0.8636 | LR:0.0001
+[2025-02-22 16:57:46,537][training.py][L156][INFO] Epoch[47/200] | Train Loss: 4.075 | Train Accuracy: 55.682% | Test Loss: 9.469 | Test Accuracy: 64.000% | Val AUC:0.7865 | Test AUC:0.7630 | Test Sen:0.4773 | LR:0.0001
+[2025-02-22 16:57:47,232][training.py][L156][INFO] Epoch[48/200] | Train Loss: 4.294 | Train Accuracy: 51.705% | Test Loss: 8.526 | Test Accuracy: 66.000% | Val AUC:0.7842 | Test AUC:0.7837 | Test Sen:0.5227 | LR:0.0001
+[2025-02-22 16:57:47,905][training.py][L156][INFO] Epoch[49/200] | Train Loss: 4.107 | Train Accuracy: 55.398% | Test Loss: 8.847 | Test Accuracy: 67.000% | Val AUC:0.7932 | Test AUC:0.7711 | Test Sen:0.6136 | LR:0.0001
+[2025-02-22 16:57:48,613][training.py][L156][INFO] Epoch[50/200] | Train Loss: 4.215 | Train Accuracy: 52.841% | Test Loss: 8.804 | Test Accuracy: 69.000% | Val AUC:0.7868 | Test AUC:0.7691 | Test Sen:0.7045 | LR:0.0001

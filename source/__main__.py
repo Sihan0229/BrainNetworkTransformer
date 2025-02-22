@@ -18,7 +18,8 @@ def model_training(cfg: DictConfig):
     logger = logger_factory(cfg)
     model = model_factory(cfg)
     optimizers = optimizers_factory(
-        model=model, optimizer_configs=cfg.optimizer)
+        model=model, optimizer_configs = cfg.optimizer)
+    # print('=========check==========', optimizer_configs.weight_decay)
     lr_schedulers = lr_scheduler_factory(lr_configs=cfg.optimizer,
                                          cfg=cfg)
     training = training_factory(cfg, model, optimizers,
@@ -27,7 +28,7 @@ def model_training(cfg: DictConfig):
     training.train()
 
 
-@hydra.main(version_base=None, config_path="conf", config_name="config")
+@hydra.main(config_path="conf", config_name="config")
 def main(cfg: DictConfig):
 
     group_name = f"{cfg.dataset.name}_{cfg.model.name}_{cfg.datasz.percentage}_{cfg.preprocess.name}"

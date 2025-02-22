@@ -1,3 +1,4 @@
+#@package model
 # seq, gnn, fbnetgen 
 name: BrainNetworkTransformer
 sizes: [360, 100]  # Note: The input node size should not be included here

@@ -3,7 +3,8 @@ from collections import defaultdict
 from typing import List
 from omegaconf import DictConfig
 import torch
-
+from omegaconf import OmegaConf
+import yaml
 
 def get_param_group_no_wd(model: torch.nn.Module, match_rule: str = None, except_rule: str = None):
     param_group_no_wd = []
@@ -51,11 +52,25 @@ def get_param_group_no_wd(model: torch.nn.Module, match_rule: str = None, except
 
 
 def optimizer_factory(model: torch.nn.Module, optimizer_config: DictConfig) -> torch.optim.Optimizer:
+    
+    print(f"=========Optimizer config type: {type(optimizer_config)}")
+    print(f"========Optimizer config: {optimizer_config}")
+    # if isinstance(optimizer_config, str):
+    #     optimizer_config = OmegaConf.create(optimizer_config)
+    if isinstance(optimizer_config, str):
+        optimizer_config = OmegaConf.load("/root/autodl-tmp/BrainNetworkTransformer/source/conf/config.yaml")
+        # optimizer_config = yaml.safe_load(optimizer_config)
+
+    # 确保配置正确
+    print(f"======Optimizer config type: {type(optimizer_config)}")
+    # print(f"Optimizer config type: {type(optimizer_config)}")
+    # print(f"Optimizer config: {optimizer_config}")
     parameters = {
         'lr': 0.0,
-        'weight_decay': optimizer_config.weight_decay
+        'weight_decay': 1.0e-4 #optimizer_config.weight_decay
     }
 
+    optimizer_config.no_weight_decay = False
     if optimizer_config.no_weight_decay:
         params, _ = get_param_group_no_wd(model,
                                           match_rule=optimizer_config.match_rule,
@@ -66,10 +81,11 @@ def optimizer_factory(model: torch.nn.Module, optimizer_config: DictConfig) -> t
 
     parameters['params'] = params
 
-    optimizer_type = optimizer_config.name
-    if optimizer_type == 'SGD':
-        parameters['momentum'] = optimizer_config.momentum
-        parameters['nesterov'] = optimizer_config.nesterov
+    # optimizer_config.name = Adam
+    optimizer_type = 'Adam'
+    # if optimizer_type == 'SGD':
+    #     parameters['momentum'] = optimizer_config.momentum
+    #     parameters['nesterov'] = optimizer_config.nesterov
     return getattr(torch.optim, optimizer_type)(**parameters)
 
 

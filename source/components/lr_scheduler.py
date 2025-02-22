@@ -51,5 +51,20 @@ class LRScheduler:
             param_group['lr'] = self.lr
 
 
+# def lr_scheduler_factory(lr_configs: List[DictConfig], cfg: DictConfig) -> List[LRScheduler]:
+#     return [LRScheduler(cfg=cfg, optimizer_cfg=lr_config) for lr_config in lr_configs]
+from omegaconf import OmegaConf
+from typing import List
+from omegaconf import DictConfig
+
 def lr_scheduler_factory(lr_configs: List[DictConfig], cfg: DictConfig) -> List[LRScheduler]:
+    # 如果 lr_configs 是字符串类型（配置路径），则加载为 OmegaConf 对象
+    if isinstance(lr_configs, str):
+        lr_configs = OmegaConf.load(lr_configs)  # 加载配置文件为 DictConfig 对象
+
+    # 确保 lr_configs 是列表类型并且包含 DictConfig 对象
+    if isinstance(lr_configs, DictConfig):
+        lr_configs = [lr_configs]  # 如果是单个配置对象，转换成列表
+
+    # 返回一个 LRScheduler 的列表
     return [LRScheduler(cfg=cfg, optimizer_cfg=lr_config) for lr_config in lr_configs]

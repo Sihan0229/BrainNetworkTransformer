@@ -1,10 +1,44 @@
 defaults:
-  - dataset: ABCD
-  - model: bnt # brainnetcnn, fbnetgen, bnt, transformer
-  - optimizer: adam
+  - dataset: ABIDE
+  - model: BrainNetCNN
+  - optimizer: adam  # 这里引用的是配置文件路径
   - training: basic_training
   - datasz: 100p
   - preprocess: mixup
+
+dataset:
+  ABIDE:
+    data_path: /root/autodl-tmp/BrainNetworkTransformer/source/conf/dataset/ABIDE.yaml
+    batch_size: 16
+
+datasz:
+  100p:
+    data_path: /root/autodl-tmp/BrainNetworkTransformer/source/conf/datasz/100p.yaml
+    percentage: 1.
+
+preprocess:
+  mixup:
+    data_path: /root/autodl-tmp/BrainNetworkTransformer/source/conf/preprocess/mixup.yaml
+    name: continus_mixup
+    continus: True
+
+model:
+  name: BrainNetCNN
+
+optimizer:
+  type: Adam
+  lr: 1.0e-4
+  weight_decay: 1.0e-4
+  no_weight_decay: false
+  match_rule: None
+  except_rule: None
+  _target_: /root/autodl-tmp/BrainNetworkTransformer/source/conf/optimizer/adam.yaml
+
+training:
+  basic_training:
+    data_path: /root/autodl-tmp/BrainNetworkTransformer/source/conf/training/basic_training.yaml
+    name: Train
+    epochs: 200
 
 repeat_time: 5
 log_path: result

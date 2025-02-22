@@ -1,9 +1,11 @@
-name: abide
+#@package dataset
+
+name: ABIDE
 batch_size: 16
 test_batch_size: 16
 val_batch_size: 16
 train_set: 0.7
 val_set: 0.1
-path: /local/home/xkan/ABIDE/abide.npy
+path: /root/autodl-tmp/BrainNetworkTransformer/source/conf/dataset/abide.npy
 stratified: True
 drop_last: True
